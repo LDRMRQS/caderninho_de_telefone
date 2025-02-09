@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D8D8F6;
+    padding-top: 80px;
+    font-family: 'Space Mono', monospace;
+}   
+
+header {
+    display: flex;
+    align-items: baseline;
+    font-size: 24px;
+    background-color: #2C2C34;
+    color: #e7e7e7;
+    border-bottom: #000000 5px inset;
+    border-left: #000000 5px inset;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin-bottom: 56px;
+}
+
+form input {
+    font-size: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 8px;
+}
+
+form button {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #B18FCF;
+    color: #e7e7e7;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 6px;
+    border: none;
+    border-bottom: #B18FCF 5px outset;
+    border-left: #B18FCF 5px inset;
+}
+
+form button:hover {
+    background-color: #7f49ae;
+    border-bottom: #7f49ae 5px outset;
+    border-left: #7f49ae 5px inset;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table thead {
+    font-size: 24px;
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
